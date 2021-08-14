@@ -1,0 +1,30 @@
+header{padding:15px; text-align:center; background-color:#CD5C5C; text-shadow:2px 2px 2px #708090}
+
+
+nav ul{list-style-type:none;background-color:#A52A2A;margin:0px;font-size:17px}
+nav ul li{display:inline-block; color:white; padding:20px}
+
+nav a:link {text-decoration:none;color:white;}
+nav a:visited{text-decoration:none; color:white}
+nav a:hover, ul li:hover{background-color:#E9967A}
+nav a:active{color:red}
+
+div img{margin-left: 15px;float:left;padding-right:20px}
+
+p{font-size:20px;color:#000080;text-align:justify;margin-right:20px}
+
+div ul{list-style-type:none;}
+div ul li{display:inline-block; padding-right:20px}
+div a:link {text-decoration:none; color:#5a2d0c}
+div a:visited {color: #5a2d0c;}
+
+section{background-image:url("../Sahara.Images/bg1.jpg");background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;overflow:hidden;}
+div{overflow:hidden;}
+
+td{font-size:17px}
+section div{padding:15px;font-size:20px}
+div img{width:400px;height;200px}
+button{width:200px;height:40px;margin-left:180px; margin-right:180px}

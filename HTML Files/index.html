@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Leo Club of Bhanubhakta</title>
+<link rel="stylesheet" type="text/css" href="Stylesheet1.css">
+<style>
+h1 img{width:42px; height:42px;vertical-align:middle}
+.footer{background-color:#CD5C5C;font-size:16px;}
+
+.dropdown-content {display:none;position:absolute;background-color:#f1baa7;
+z-index:1;min-width: 160px;}
+.dropdown-content a{color:white;padding:15px;text-decoration:none;
+display:block;text-align: left;}
+
+li.dropdown {  display: inline-block;}
+
+.dropdown:hover .dropdown-content{display:block}
+.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+</head>
+<body>
+<header><h1><img src="../Images/ClubLogo.png">  Leo CLub of Bhanubhakta<br><span style="font-size:20px">Sponsered by Lions Club of Mount Makalu</span></h1></header>
+
+<nav><ul>
+<li><a href="index.html">About Us</a></li>
+
+<li class="dropdown"><a href="OurActivities.html" class="dropbtn">Our Activities</a>
+    <div class="dropdown-content">
+      <a href="OurActivities.html#Donation">Donation</a>
+      <a href="OurActivities.html#Cleaning">Cleaning</a>
+      <a href="OurActivities.html#Fest">Festive Programs</a>
+    </div></li>
+
+<li><a href="JoinUs.html">Join Us</a></li>
+<li><a href="ContactUs.html">Contact Us</a></li>
+<li><a href="DevelopersProfile.html">Developer's Profile</a></li></ul></nav>
+
+<section>
+<br>
+<img src="../Images/GroupHome.jpg" alt="Members" class="pic" id="pic1">
+
+<div style="text-align:center"><button onclick="Prev()">Previous</button><button onClick="next()">Next</button></div>
+
+<div><em><b>Leo Club of Bhanubhakta</b></em> was established in 2000 AD in Bhanubhakta Memorial Higher Secondary School. 
+This is an social organization which works for the welfare of the people. It is the only Alpha leo club in the whole Nepal.
+The objective of this club is to provide the youth of the world an opportunity for development and contribution, individually 
+and collectively as responsible members of the local, national and international community, to stimulate among its members 
+acceptance of high ethical standard, to develop Leadership, to provide experiences through service to the community, to 
+provide an opportunity to promote international understanding. </div>
+<div><h3>Leo Club Motto</h3>
+<B>L</B>eadership – Develop skills as a project organizer, time manager and team leader.<br>
+
+<B>E</B>xperience – Learn how teamwork, cooperation and collaboration can bring exciting changes to your community and the world.<br>
+
+<B>O</B>pportunity – Make friends and feel the rewards of community service.
+</div><br><br>
+
+<div class="footer"><ul>
+<li><a href="JoinUs.html"><strong>Join Us</a></li>
+<li><a href="ContactUs.html">Contact Us</strong></a></li></ul></div>
+</section> 
+
+<script>
+function Prev(){
+document.getElementById("pic1").src="../Images/GroupHome2.jpg";
+}
+function next(){
+document.getElementById("pic1").src="../Images/GroupHome3.jpg";
+}
+</script>
+</body>
+</html>
